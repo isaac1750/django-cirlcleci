@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="catalog.tests.test_views.AuthorCreateViewTest-20210414135603" tests="6" file="catalog/tests/test_views.py" time="3.437" timestamp="2021-04-14T13:56:07" failures="0" errors="0" skipped="0">
+	<testcase classname="catalog.tests.test_views.AuthorCreateViewTest" name="test_forbidden_if_logged_in_but_not_correct_permission" time="0.832" timestamp="2021-04-14T13:56:04" file="catalog\tests\test_views.py" line="313">
+		<system-err><![CDATA[C:\Users\HP\Desktop\circleci-demo-python-django\env\lib\site-packages\whitenoise\base.py:115: UserWarning: No directory at: C:\Users\HP\Desktop\circleci-demo-python-django\staticfiles\
+  warnings.warn(u"No directory at: {}".format(root))
+]]></system-err>
+	</testcase>
+	<testcase classname="catalog.tests.test_views.AuthorCreateViewTest" name="test_form_date_of_death_initially_set_to_expected_date" time="0.547" timestamp="2021-04-14T13:56:04" file="catalog\tests\test_views.py" line="329"/>
+	<testcase classname="catalog.tests.test_views.AuthorCreateViewTest" name="test_logged_in_with_permission" time="0.580" timestamp="2021-04-14T13:56:05" file="catalog\tests\test_views.py" line="318"/>
+	<testcase classname="catalog.tests.test_views.AuthorCreateViewTest" name="test_redirect_if_not_logged_in" time="0.379" timestamp="2021-04-14T13:56:05" file="catalog\tests\test_views.py" line="309"/>
+	<testcase classname="catalog.tests.test_views.AuthorCreateViewTest" name="test_redirects_to_detail_view_on_success" time="0.546" timestamp="2021-04-14T13:56:06" file="catalog\tests\test_views.py" line="339"/>
+	<testcase classname="catalog.tests.test_views.AuthorCreateViewTest" name="test_uses_correct_template" time="0.554" timestamp="2021-04-14T13:56:07" file="catalog\tests\test_views.py" line="323"/>
+</testsuite>

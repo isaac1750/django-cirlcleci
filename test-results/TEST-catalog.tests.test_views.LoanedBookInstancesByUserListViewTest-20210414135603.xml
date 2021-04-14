@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="catalog.tests.test_views.LoanedBookInstancesByUserListViewTest-20210414135603" tests="5" file="catalog/tests/test_views.py" time="2.592" timestamp="2021-04-14T13:56:09" failures="0" errors="0" skipped="0">
+	<testcase classname="catalog.tests.test_views.LoanedBookInstancesByUserListViewTest" name="test_logged_in_uses_correct_template" time="0.545" timestamp="2021-04-14T13:56:07" file="catalog\tests\test_views.py" line="88"/>
+	<testcase classname="catalog.tests.test_views.LoanedBookInstancesByUserListViewTest" name="test_only_borrowed_books_in_list" time="0.572" timestamp="2021-04-14T13:56:08" file="catalog\tests\test_views.py" line="100"/>
+	<testcase classname="catalog.tests.test_views.LoanedBookInstancesByUserListViewTest" name="test_pages_ordered_by_due_date" time="0.534" timestamp="2021-04-14T13:56:08" file="catalog\tests\test_views.py" line="153"/>
+	<testcase classname="catalog.tests.test_views.LoanedBookInstancesByUserListViewTest" name="test_pages_paginated_to_ten" time="0.566" timestamp="2021-04-14T13:56:09" file="catalog\tests\test_views.py" line="134"/>
+	<testcase classname="catalog.tests.test_views.LoanedBookInstancesByUserListViewTest" name="test_redirect_if_not_logged_in" time="0.375" timestamp="2021-04-14T13:56:09" file="catalog\tests\test_views.py" line="84"/>
+</testsuite>
